@@ -1,0 +1,12 @@
+﻿{
+    "Path":  "D:\\ws\\issue-3203-artifacts\\gui-after-project\\source\\archive\\renamed.ent",
+    "Document":  {
+                     "ref":  "o736",
+                     "type":  "WolvenKit.App.ViewModels.Documents.RedDocumentViewModel"
+                 },
+    "RootChunk":  {
+                      "ref":  "o738",
+                      "type":  "WolvenKit.RED4.Types.entEntityTemplate"
+                  }
+}
+

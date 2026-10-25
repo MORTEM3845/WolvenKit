@@ -1,0 +1,284 @@
+{
+  "Mode": "Issue 3203: real NewFileViewModel, filename paths and Create command validation; no UI navigation",
+  "Executable": "D:\\ws\\issue-3203-artifacts\\spider-after\\WolvenKit.exe",
+  "ProcessId": 78576,
+  "Timestamp": "2026-10-25T21:03:30.1760623+00:00",
+  "Results": [
+    {
+      "Extension": "ent",
+      "Input": "renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\archive\\renamed.ent",
+      "ExpectedName": "renamed.ent",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "ent",
+      "Input": "already.ent",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\archive\\already.ent",
+      "ExpectedName": "already.ent",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "ent",
+      "Input": "upper.ENT",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\archive\\upper.ENT",
+      "ExpectedName": "upper.ENT",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "ent",
+      "Input": "other.txt",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\archive\\other.txt.ent",
+      "ExpectedName": "other.txt.ent",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "ent",
+      "Input": "nested\\renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\archive\\nested\\renamed.ent",
+      "ExpectedName": "nested\\renamed.ent",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "ent",
+      "Input": "",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\archive",
+      "ExpectedName": "",
+      "CorrectSuffix": true,
+      "CanCreate": false
+    },
+    {
+      "Extension": "ent",
+      "Input": "collision",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\archive\\collision.ent",
+      "CollisionDetected": true,
+      "Message": "Filename already in use"
+    },
+    {
+      "Extension": "yaml",
+      "Input": "renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\tweaks\\issue3203\\renamed.yaml",
+      "ExpectedName": "renamed.yaml",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "yaml",
+      "Input": "already.yaml",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\tweaks\\issue3203\\already.yaml",
+      "ExpectedName": "already.yaml",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "yaml",
+      "Input": "upper.YAML",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\tweaks\\issue3203\\upper.YAML",
+      "ExpectedName": "upper.YAML",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "yaml",
+      "Input": "other.txt",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\tweaks\\issue3203\\other.txt.yaml",
+      "ExpectedName": "other.txt.yaml",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "yaml",
+      "Input": "nested\\renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\tweaks\\issue3203\\nested\\renamed.yaml",
+      "ExpectedName": "nested\\renamed.yaml",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "yaml",
+      "Input": "",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\tweaks\\issue3203",
+      "ExpectedName": "",
+      "CorrectSuffix": true,
+      "CanCreate": false
+    },
+    {
+      "Extension": "yaml",
+      "Input": "collision",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\tweaks\\issue3203\\collision.yaml",
+      "CollisionDetected": true,
+      "Message": "Filename already in use"
+    },
+    {
+      "Extension": "archive.xl",
+      "Input": "renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\renamed.archive.xl",
+      "ExpectedName": "renamed.archive.xl",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "archive.xl",
+      "Input": "already.archive.xl",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\already.archive.xl",
+      "ExpectedName": "already.archive.xl",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "archive.xl",
+      "Input": "upper.ARCHIVE.XL",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\upper.ARCHIVE.XL",
+      "ExpectedName": "upper.ARCHIVE.XL",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "archive.xl",
+      "Input": "other.txt",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\other.txt.archive.xl",
+      "ExpectedName": "other.txt.archive.xl",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "archive.xl",
+      "Input": "nested\\renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\nested\\renamed.archive.xl",
+      "ExpectedName": "nested\\renamed.archive.xl",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "archive.xl",
+      "Input": "",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources",
+      "ExpectedName": "",
+      "CorrectSuffix": true,
+      "CanCreate": false
+    },
+    {
+      "Extension": "archive.xl",
+      "Input": "collision",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\collision.archive.xl",
+      "CollisionDetected": true,
+      "Message": "Filename already in use"
+    },
+    {
+      "Extension": "reds",
+      "Input": "renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\scripts\\issue3203\\renamed.reds",
+      "ExpectedName": "renamed.reds",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "reds",
+      "Input": "already.reds",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\scripts\\issue3203\\already.reds",
+      "ExpectedName": "already.reds",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "reds",
+      "Input": "upper.REDS",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\scripts\\issue3203\\upper.REDS",
+      "ExpectedName": "upper.REDS",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "reds",
+      "Input": "other.txt",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\scripts\\issue3203\\other.txt.reds",
+      "ExpectedName": "other.txt.reds",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "reds",
+      "Input": "nested\\renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\scripts\\issue3203\\nested\\renamed.reds",
+      "ExpectedName": "nested\\renamed.reds",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "reds",
+      "Input": "",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\scripts\\issue3203",
+      "ExpectedName": "",
+      "CorrectSuffix": true,
+      "CanCreate": false
+    },
+    {
+      "Extension": "reds",
+      "Input": "collision",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\r6\\scripts\\issue3203\\collision.reds",
+      "CollisionDetected": true,
+      "Message": "Filename already in use"
+    },
+    {
+      "Extension": "lua",
+      "Input": "renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\renamed.lua",
+      "ExpectedName": "renamed.lua",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "lua",
+      "Input": "already.lua",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\already.lua",
+      "ExpectedName": "already.lua",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "lua",
+      "Input": "upper.LUA",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\upper.LUA",
+      "ExpectedName": "upper.LUA",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "lua",
+      "Input": "other.txt",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\other.txt.lua",
+      "ExpectedName": "other.txt.lua",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "lua",
+      "Input": "nested\\renamed",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\nested\\renamed.lua",
+      "ExpectedName": "nested\\renamed.lua",
+      "CorrectSuffix": true,
+      "CanCreate": true
+    },
+    {
+      "Extension": "lua",
+      "Input": "",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods",
+      "ExpectedName": "",
+      "CorrectSuffix": true,
+      "CanCreate": false
+    },
+    {
+      "Extension": "lua",
+      "Input": "collision",
+      "ActualPath": "D:\\ws\\issue-3203-artifacts\\probe-after-01\\source\\resources\\bin\\x64\\plugins\\cyber_engine_tweaks\\mods\\collision.lua",
+      "CollisionDetected": true,
+      "Message": "Filename already in use"
+    }
+  ],
+  "Error": null
+}
